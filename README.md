@@ -10,7 +10,7 @@ Research workflow and released aggregate results for the unpublished manuscript 
 - `data/public/publication_tables/`: six formal aggregate tables.
 - `data/public/figure_data/`: five aggregate figure-input tables, including coefficient subsets from the **combined** publication model.
 - `data/public/descriptive/`: three aggregate summaries.
-- `results/figures/`: eleven approved PNG/PDF figure files with descriptive filenames, including the JSD distribution image.
+- `results/figures/`: six approved PNG figure files with descriptive filenames, including the JSD distribution image.
 - `scripts/`, `src/`, `config/`, `docs/`: generator, offline smoke test, path helper, configuration, and documentation.
 
 The released JSD distribution figure is **not regenerated from the released aggregate data**: exact JSD histogram bins are not distributed. The raw term-normalization mapping is also absent. No manuscript figure number is inferred from file order or name.

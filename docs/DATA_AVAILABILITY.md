@@ -2,7 +2,7 @@
 
 ## Publicly released here
 
-The repository includes the frozen minimal taxonomy (`data/taxonomy/term_class_mapping.csv`), six aggregate publication tables, five aggregate figure-data tables, three aggregate descriptive summaries under `data/public/`, and eleven descriptive-filename PNG/PDF figures under `results/figures/`. Coefficient figure-data files are subsets of the formal combined model. The approved JSD distribution image is included, but exact bins are not.
+The repository includes the frozen minimal taxonomy (`data/taxonomy/term_class_mapping.csv`), six aggregate publication tables, five aggregate figure-data tables, three aggregate descriptive summaries under `data/public/`, and six descriptive-filename PNG figures under `results/figures/`. Coefficient figure-data files are subsets of the formal combined model. The approved JSD distribution image is included, but exact bins are not.
 
 ## Synthetic
 
