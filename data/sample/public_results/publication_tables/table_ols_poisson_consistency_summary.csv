@@ -1,0 +1,4 @@
+﻿model,n_terms_compared,same_direction_n,same_direction_share,both_p_lt_05_n,both_p_lt_05_share,both_fdr_lt_05_n,both_fdr_lt_05_share
+Country model,120,118,0.9833333333333332,15,0.125,1,0.0083333333333333
+Gender model,72,72,1.0,9,0.125,3,0.0416666666666666
+Country + gender model,132,131,0.9924242424242424,13,0.0984848484848484,0,0.0

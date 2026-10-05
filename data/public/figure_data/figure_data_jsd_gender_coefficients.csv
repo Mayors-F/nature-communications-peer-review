@@ -1,0 +1,2 @@
+aspect_set,dependent_var,predictor_type,term,label,estimate,conf_low,conf_high,p_value,p_adj_bh,n_papers,r_squared,adj_r_squared,model
+12-class,mean_pairwise_jsd,first_author_gender,"C(first_author_gender_confident, Treatment(reference='male'))[T.female]",female,0.0007022453939285,-0.0016609030769576,0.0030653938648146,0.5602750511916468,0.6585944032456522,23896,0.2020162907634703,,country_gender_combined

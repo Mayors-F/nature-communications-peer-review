@@ -1,0 +1,2 @@
+﻿dependent_var,predictor_type,term,estimate,conf_low,conf_high,p_value,n_papers,r_squared,adj_r_squared,model,p_adj_bh,label
+mean_pairwise_jsd,first_author_gender,"C(first_author_gender_confident, Treatment(reference='male'))[T.female]",-0.0167956202085174,-0.0483916391136749,0.01480039869664,0.2974739139784031,71,0.0273996585166694,-0.0637816234973926,gender,0.9215122812250898,Female first author

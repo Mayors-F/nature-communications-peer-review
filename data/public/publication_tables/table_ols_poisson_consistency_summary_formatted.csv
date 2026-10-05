@@ -1,0 +1,4 @@
+model,n_terms_compared,same_direction_n,same_direction_share,both_p_lt_05_n,both_p_lt_05_share,both_fdr_lt_05_n,both_fdr_lt_05_share
+Country model,240,211,87.92%,103,42.92%,88,36.67%
+Gender model,96,85,88.54%,69,71.88%,68,70.83%
+Country + gender model,252,221,87.70%,104,41.27%,92,36.51%

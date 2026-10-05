@@ -1,0 +1,55 @@
+paths:
+  sample_data: data/sample
+  work_data: data/work
+  results: results
+  public_results_data_dir: data/public
+
+review_processing:
+  text_normalization: false
+  min_sentence_length: 8
+  chunk_size: 5000
+
+aspect_extraction:
+  mode: mock
+  model: deepseek-chat
+  batch_size: 80
+  max_failed_chunks: 1
+  max_retries: 8
+  temperature: 0
+  max_tokens: 2048
+  seed: 2265
+  save_every: 20
+  sleep_each_call: 0.0
+
+taxonomy:
+  mode: demo
+  mapping_file: data/taxonomy/term_class_mapping.csv
+  demo_mapping_file: data/sample/sample_term_mapping.csv
+
+author_features:
+  mode: mock
+  sample_author_metadata: data/sample/sample_author_metadata.csv
+  mock_responses: data/sample/mock_author_responses.jsonl
+  external_paper_authors: data/external/paper_authors.parquet
+  external_countryfilled: data/external/countryfilled_with_source.parquet
+  external_genderize_v1_patched: data/external/author_master_genderized_patched.parquet
+
+genderize_query:
+  fallback_probability_threshold: 0.60
+  fallback_count_threshold: 10
+
+genderize:
+  confident_probability_threshold: 0.80
+  confident_count_threshold: 20
+
+analysis:
+  formal_country_min_papers: 500
+  large_team_cutoff: 50
+  country_reference: US
+  gender_reference: male
+
+runtime:
+  mode: demo  # demo or public-results; notebooks 07 and 08 require demo
+
+demo:
+  country_min_papers: 5  # DEMO ONLY; formal study threshold stays 500

@@ -1,0 +1,25 @@
+term_raw,term_norm,term_type,major_class_final,label_source_final
+method design,method design,review_aspect,Methodology,SYNTHETIC TEST FIXTURE
+method reproducibility,method reproducibility,review_aspect,Methodology,SYNTHETIC TEST FIXTURE
+result reporting,result report,review_aspect,Results,SYNTHETIC TEST FIXTURE
+result consistency,result consistency,review_aspect,Results,SYNTHETIC TEST FIXTURE
+experiment evaluation,experiment evaluation,review_aspect,Experiments and Evaluation,SYNTHETIC TEST FIXTURE
+evaluation design,evaluation design,review_aspect,Experiments and Evaluation,SYNTHETIC TEST FIXTURE
+data description,data description,review_aspect,Data and Datasets,SYNTHETIC TEST FIXTURE
+dataset availability,dataset availability,review_aspect,Data and Datasets,SYNTHETIC TEST FIXTURE
+figure clarity,figure clarity,review_aspect,Figures and Tables,SYNTHETIC TEST FIXTURE
+table description,table description,review_aspect,Figures and Tables,SYNTHETIC TEST FIXTURE
+writing clarity,writing clarity,review_aspect,"Writing, Language and Terminology",SYNTHETIC TEST FIXTURE
+terminology consistency,terminology consistency,review_aspect,"Writing, Language and Terminology",SYNTHETIC TEST FIXTURE
+theory assumption,theory assumption,review_aspect,Theory and Models,SYNTHETIC TEST FIXTURE
+model explanation,model explanation,review_aspect,Theory and Models,SYNTHETIC TEST FIXTURE
+related work,related work,review_aspect,Comparison and Context,SYNTHETIC TEST FIXTURE
+baseline comparison,baseline comparison,review_aspect,Comparison and Context,SYNTHETIC TEST FIXTURE
+publication suitability,publication suitability,review_aspect,Paper Assessment,SYNTHETIC TEST FIXTURE
+study quality,study quality,review_aspect,Paper Assessment,SYNTHETIC TEST FIXTURE
+method novelty,method novelty,review_aspect,Novelty and Impact,SYNTHETIC TEST FIXTURE
+study impact,study impact,review_aspect,Novelty and Impact,SYNTHETIC TEST FIXTURE
+method validity,method validity,review_aspect,"Validity, Rigor and Quality",SYNTHETIC TEST FIXTURE
+result robustness,result robustness,review_aspect,"Validity, Rigor and Quality",SYNTHETIC TEST FIXTURE
+study limitation,study limitation,review_aspect,Limitations,SYNTHETIC TEST FIXTURE
+data limitation,data limitation,review_aspect,Limitations,SYNTHETIC TEST FIXTURE
